@@ -1,0 +1,73 @@
+{{ content_for_index }}
+
+"presets": [
+      {
+        "category": "Text",
+        "name": "Benefits"
+     
+        }
+]
+{
+        "type": "text",
+        "id": "judgeme-title",
+        "label": "Judgeme Title"
+},
+{
+        "type": "image_picker",
+        "id": "tooltip-image",
+        "label": "Tooltip Image"
+},
+
+{{ section.settings.judgeme-title }}
+{{ section.settings.tooltip-image | img_url: 'master'}}
+style="background-image:url({{ section.settings.home-bear-monster-club-image1 | img_url: 'master'}});"
+
+{% assign dynamic_collection = recommendations %}
+  
+  {%- if block.settings.sales-page-when-you-image3 != blank -%}
+ {% endif %}
+
+
+"blocks": [
+    {
+      "type": "brands",
+      "name": "Features",
+      "settings": [ 
+{
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+}, 
+{
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+},
+      ]
+    }
+  ]
+
+
+{% assign count = 0 %}                                    
+         {% for block in section.blocks %}
+         {% assign count = count | plus: 1 %}
+  {{block.settings.title}}
+  {{ block.settings.image | img_url: 'master'}}
+
+   {% endfor %}
+
+   {% if count == 1 %} show{% endif %}
+ {% if count == 1 %} banner-brand-text {% else %}banner-brand-img{% endif %}
+
+ <!-- Multiple repeater  left and right side repeater-->
+
+  {% for block in section.blocks limit:3 %}
+
+  {% for block in section.blocks limit:3 offset:3 %}
+   {% for block in section.blocks limit:3 offset:continue %}
+
+{% comment %}
+{% endcomment %}
+
+
+https://vampirefreaks.com/?preview_theme_id=157706780708
