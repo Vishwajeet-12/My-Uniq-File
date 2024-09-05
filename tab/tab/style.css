@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ro3-secs-tent-tab-container {
+max-width: 600px;
+}
+
+.ro3-secs-tent-tab-container .tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+.ro3-secs-tent-tab-container .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.ro3-secs-tent-tab-container .tab:hover::after {
+    content: url('./arrow.png'); 
+    position: absolute;
+    top: 100%; 
+    left: 45%;
+}
+.ro3-secs-tent-tab-container .tab:hover {
+    background-color:#48BE97;
+    color: #fff;
+    position: relative;
+}
+
+
+.ro3-secs-tent-tab-container .tab-content {
+    display: none;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.ro3-secs-tent-tab-container .tab-content.active {
+    display: block;
+}
+
+.r-fy87pb {
+    display: block;
+    text-align-last: left !important;
+    width: 100%;
+}
+.r-1irmjte .r-1l435fo .r-1aw8z8a {
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+.ro03-secs-subtitle {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.ro03-secs-subtitle strong {
+    color: #48BE97;
+}
+
+.ro3-secs-tent-list-content {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.ro3-secs-tent-list-image img {
+    max-width: 35px;
+    object-fit: contain;
+}
+
+.ro3-secs-tent-list-main .ro3-secs-tent-list-content:nth-child(5) .ro3-secs-tent-list-image img {
+    max-width: 25px;
+    margin: 0 auto;
+}
+
+.ro3-secs-tent-list-image {
+    width: 35px;
+    text-align: center;
+}
+
+.ro3-secs-tent-list-pera {
+    padding-left: 20px;
+}
+
+.ro3-secs-tent-list-title {
+    color: #3D4246;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.ro3-secs-tent-list-description {
+    color: #3D4246;
+    font-size: 15px;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-b9hjhm {
+    display: none !important;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-1oy52oc {
+    display: none !important;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-1ehbshu {
+    display: none !important;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-1p4n763 {
+    display: none !important;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-12cnx9x {
+    display: none !important;
+}
+
+.ro3-secs-tent-list-main {
+    padding-bottom: 40px;
+}
+
+.ro03-secs-tent-reviews {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    max-width: 520px;
+}
+
+.ro03-secs-tent-reviews img {
+    max-width: 110px;
+    object-fit: contain;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.ro03-secs-tent-reviews span {
+    color: #555555;
+    font-size: 14px;
+}
+
+.r-1irmjte .r-1l435fo .r-tb5bix .r-5rkr9o {
+    box-shadow: none !important;
+    max-width: 520px;
+}
+.r-1l435fo {
+    align-self: center !important;
+}
+.cw-mobile
+{
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .r-1hllttk video {
+    padding: 0px 8px;
+}
+.cw-mobile
+{
+    display: block !important;
+}
+.cw-desktop
+{
+    display: none !important;
+}
+.r-1irmjte .r-1l435fo .r-1aw8z8a {
+    text-align: center;
+}
+
+.r-1irmjte .r-1l435fo .r-1aw8z8a span p {
+    font-size: 18px !important;
+}
+
+.ro03-secs-subtitle.cw-mobile {
+    font-size: 16px !important;
+    line-height: 23px;
+}
+
+.r-fy87pb {
+    text-align-last: center !important;
+}
+
+.ro3-secs-tent-title-heading.cw-mobile {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.ro3-secs-tent-list-content {
+    padding-top: 15px;
+}
+
+.ro3-secs-tent-list-title {
+    color: #000;
+    font-size: 15px;
+}
+
+.ro3-secs-tent-list-description {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.ro3-secs-tent-list-image {
+    width: 20%;
+}
+
+.ro03-secs-tent-reviews {
+    flex-wrap: wrap;
+}
+.ro03-secs-tent-reviews img {
+    margin-right: 0px;
+    top: 0px;
+}
+
+
+.ro3_secs_tent_list_li {
+    display: flex;
+    gap: 9px;
+    line-height: 1.8;
+}
+
+
+.ro3_secs_tent_list_li_text {
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;    
+}
+.ro3_secs_tent_list_read-more {
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-decoration : underline;
+    color : #B5B5B5;
+    cursor : pointer;
+}
+
+.ro3-secs-tent-tab-tab3-content {
+    font-family: 'Poppins';
+    font-size : 17px;
+}
+
+.ro3-secs-tent-tab-tab3-heading {
+    font-family: 'Poppins';
+}
+.ro3-secs-tent-tab-tab3-content br {
+    display: block;
+    content: "";
+    margin-bottom: 10px; 
+}
+.ro3-secs-tent-tab-tab3-readmore {
+    color:  #FF9834;
+    text-decoration: underline;
+    cursor: pointer;
+}

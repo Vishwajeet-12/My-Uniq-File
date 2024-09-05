@@ -1,0 +1,8 @@
+.cw-biaxol-container{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
